@@ -1,4 +1,4 @@
-# <span style="color:#5cb85c; font-weight:bold;">Sleep Analyse in RStudio </span> 
+# 🟢 **Sleep Analyse in RStudio**
 
 <p align="left">
   <img src="images/RStudio.png" alt="RStudio Logo" width="180">

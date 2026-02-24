@@ -1,4 +1,4 @@
-# <span style="color:#5cb85c; font-weight:bold;">ANALYZE WITH BIGQUERY</span>
+# 🟢 **ANALYZE WITH BIGQUERY**
 <p align="left">
   <img src="images/BigQuery.png" alt="BigQuery Logo" width="180">
 </p>
@@ -42,7 +42,12 @@ This strongly suggests that the device was **not used**, **not worn**, or **out 
 ### Visualizing the Results
 One of the advantages of working with BigQuery in combination with visualization tools is the ability to instantly transform query outputs into clear visual summaries. Below are two complementary charts that illustrate the distribution of “days off”:
 
-<div style="display: flex; gap: 20px;"><img src="images/Table_DaysOff.png" alt="Table of Days Off" width="48%"><img src="images/TotalDaysOff_by_Dayweek.png" alt="Total Days Off by Day of Week" width="48%"></div>
+<table>
+  <tr>
+    <td><img src="images/Table_DaysOff.png" alt="Table of Days Off" width="100%"></td>
+    <td><img src="images/TotalDaysOff_by_Dayweek.png" alt="Total Days Off by Day of Week" width="100%"></td>
+  </tr>
+</table>
 
 The first image shows the raw counts of zero‑activity days per user, while the second highlights how these inactive days are distributed across the week. Together, they provide a quick and intuitive understanding of when and how often the device was not used.
 
@@ -81,7 +86,13 @@ ORDER BY UsersCount DESC;
 ```
 To better understand how users are distributed across activity categories, I visualized the results of the step‑based classification. The charts below summarize both the numeric output and the proportional distribution of users across activity levels.
 
-<div style="display: flex; gap: 20px;"><img src="images/StepsResult.png" alt="Activity Level Classification Table" width="48%"><img src="images/StepsVis.png" alt="Activity Level Distribution Visualization" width="48%"></div>
+<table>
+  <tr>
+    <td><img src="images/StepsResult.png" alt="Activity Level Classification Table" width="100%"></td>
+    <td><img src="images/StepsVis.png" alt="Activity Level Distribution Visualization" width="100%"></td>
+  </tr>
+</table>
+
 
 ### Interpretation
 The distribution reveals several important insights:

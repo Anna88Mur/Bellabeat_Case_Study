@@ -27,14 +27,14 @@ Additional data sources may be used if needed.
 
 We follow the six-step data analysis process recommended in the Google Data Analytics Certificate:
 
-- <span style="color:#d9534f; font-weight:bold;">ASK</span>  
-- <span style="color:#f0ad4e; font-weight:bold;">PREPARE</span>  
-- <span style="color:#5bc0de; font-weight:bold;">PROCESS</span>  
-- <span style="color:#5cb85c; font-weight:bold;">ANALYZE</span>  
-- <span style="color:#428bca; font-weight:bold;">SHARE</span>  
-- <span style="color:#6f42c1; font-weight:bold;">ACT</span>
+🔴 **ASK**  
+🟠 **PREPARE**  
+🔵 **PROCESS**  
+🟢 **ANALYZE**  
+🔵 **SHARE**  
+🟣 **ACT**
 
-## <span style="color:#d9534f; font-weight:bold;">ASK</span>
+## 🔴**ASK**
 
 Sršen asks me to analyze smart device usage data in order to gain insight into how
 consumers use non-Bellabeat smart devices. These questions will guide my
@@ -46,7 +46,7 @@ analysis:
 In this stage, I define the business problem, identify key stakeholders, and clarify what insights are needed to support Bellabeat’s strategic decisions. The goal of the ASK phase is to understand what the company wants to achieve and how data can help answer these questions.
 The key stakeholders in this project are Bellabeat’s executive team, who are interested in understanding how smart‑device usage trends can support the future development and growth of Bellabeat products.
 
-## <span style="color:#f0ad4e; font-weight:bold;">PREPARE</span>  
+## 🟠 **PREPARE**  
 
 The primary dataset used in this project is the public **FitBit Fitness Tracker Data**  
 <https://www.kaggle.com/datasets/arashnic/fitbit?resource=download-directory>
@@ -80,7 +80,7 @@ Although the dataset is synthetic, it provides structured demographic and lifest
 
 
 
-## <span style="color:#5bc0de; font-weight:bold;">PROCESS</span>
+## 🔵 **PROCESS**
 
 I conducted the initial data exploration in **Google Sheets**, using sorting, filtering, and duplicate removal.
 
@@ -140,7 +140,7 @@ All cleaned and merged datasets used in this project are available in the reposi
 [**SQL/data**](SQL/data)
 
 
-## <span style="color:#5cb85c; font-weight:bold;">ANALYZE</span>
+## 🟢**ANALYZE**
 
 The analysis of the **FitBit Fitness Tracker Data** was conducted using Google BigQuery, where SQL queries were used to  aggregate and explore the behavioral patterns captured in the dataset. A detailed report is available here: [**SQL**](SQL)
 
@@ -148,7 +148,7 @@ The **Sleep Health & Lifestyle Dataset** was analyzed separately in RStudio (ver
 
 Using two different analytical environments allowed me to apply the most suitable tools for each dataset and to explore the data from complementary perspectives.
 
-## <span style="color:#428bca; font-weight:bold;">SHARE</span>
+## 🔵 **SHARE**
 
 The results of this case study are summarized in a presentation format.  
 The final report is available as a PDF file:
@@ -158,7 +158,7 @@ The final report is available as a PDF file:
 This presentation highlights the key findings, visualizations, and recommendations derived from the analysis.
 
 
-## <span style="color:#6f42c1; font-weight:bold;">ACT</span>
+## 🟣 **ACT**
 
 The combined SQL and R analyses show that sleep behavior is shaped far more by stress, lifestyle habits, and individual health conditions than by physical activity alone. While steps and activity levels demonstrate only weak relationships with sleep outcomes, stress consistently emerges as a meaningful predictor of both sleep duration and perceived sleep quality. Users with diagnosed sleep disorders also show distinct patterns that align with known clinical expectations.
 What Bellabeat Can Do Next
